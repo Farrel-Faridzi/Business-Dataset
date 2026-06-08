@@ -4,7 +4,7 @@ Business Database converted to PostgreSQL with snake_case naming conventions —
 
 ## Overview
 
-This is a PostgreSQL-compatible version of the [Business Database](https://www.kaggle.com/datasets/himelsarder/business-database) dataset by himelsarder on Kaggle. It has been adapted to follow a consistent **snake_case** naming convention across all table and column names, as specified in the DAD COMPFEST 18 dataset documentation.
+This is a PostgreSQL-compatible version of the [Business Database](https://www.kaggle.com/datasets/himelsarder/business-database) dataset by himelsarder on Kaggle. It has been adapted to follow a consistent **snake_case** naming convention across all table and column names.
 
 The database models a sales and order management system, covering products, customers, orders, employees, and payments.
 
