@@ -1,6 +1,6 @@
 # business-database-postgresql
 
-Business Database converted to PostgreSQL with snake_case naming conventions — includes schema and seed data for 8 tables. Made with love by yours truly.
+Business Database converted to PostgreSQL with snake_case naming conventions, includes schema and seed data for 8 tables. Made with love by yours truly.
 
 ## Overview
 
