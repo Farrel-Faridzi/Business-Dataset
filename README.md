@@ -1,12 +1,12 @@
-# classicmodels-postgresql
+# business-database-postgresql
 
-Classic Models sample database converted to PostgreSQL with snake_case naming conventions — includes schema and seed data for 8 tables made with love by Farrel.
+Business Database converted to PostgreSQL with snake_case naming conventions — includes schema and seed data for 8 tables. Made with love by yours truly.
 
 ## Overview
 
-This is a PostgreSQL-compatible version of the [Classic Models](http://www.mysqltutorial.org/mysql-sample-database.aspx) sample database, originally written in MySQL. It has been adapted to follow a consistent **snake_case** naming convention across all table and column names.
+This is a PostgreSQL-compatible version of the [Business Database](https://www.kaggle.com/datasets/himelsarder/business-database) dataset by himelsarder on Kaggle. It has been adapted to follow a consistent **snake_case** naming convention across all table and column names, as specified in the DAD COMPFEST 18 dataset documentation.
 
-The database models a fictional scale model car retailer, covering products, customers, orders, employees, and payments.
+The database models a sales and order management system, covering products, customers, orders, employees, and payments.
 
 ## Database Schema
 
@@ -46,18 +46,18 @@ This dataset follows the naming rules defined in the Pre-Sprint documentation:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-org/classicmodels-postgresql.git
-   cd classicmodels-postgresql
+   git clone https://github.com/your-org/business-database-postgresql.git
+   cd business-database-postgresql
    ```
 
 2. Create the database:
    ```bash
-   createdb classicmodels
+   createdb business_database
    ```
 
 3. Load the schema and seed data:
    ```bash
-   psql -d classicmodels -f business_postgresql.sql
+   psql -d business_database -f business_postgresql.sql
    ```
 
 4. Verify the setup:
@@ -101,4 +101,5 @@ LEFT JOIN employees m ON e.reports_to = m.employee_number;
 
 ## Source
 
-Original dataset: [MySQL Sample Database — mysqltutorial.org](http://www.mysqltutorial.org/mysql-sample-database.aspx)
+Original dataset: [Business Database — Kaggle (himelsarder)](https://www.kaggle.com/datasets/himelsarder/business-database)
+> A Comprehensive Sales and Order Management Database

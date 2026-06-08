@@ -1,5 +1,5 @@
 -- ============================================================
---  ClassicModels Database — PostgreSQL Edition
+--  Business Database — PostgreSQL Edition
 --  Converted from MySQL source to match ERD naming convention
 --  Naming rules:
 --    • Table names  : snake_case, all lowercase
